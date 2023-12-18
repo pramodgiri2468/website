@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    
+}
+.banner{
+    background-image: url(Gallery.jpg.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+   
+}
+
+
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+ul li{
+    display:inline;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 30px; 
+    text-decoration-style: none;
+    
+    
+}
+
+ul li a{
+   
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 200px;
+   font-size: 25px;
+   color: #fff;
+   text-decoration: none;
+   display: inline-block;
+   margin-top: 25px;
+   margin-left: -50px;
+   
+}
+li{
+    margin: -10px;
+
+}
+ul li a:hover{
+    
+    color:black;
+}
+
+.logo {
+    position: absolute;
+    width: 263px;
+    height: 114px;
+    left: 102px;
+    top: 7px;  
+}
+.Gallery{
+    position:absolute;
+    top: 100px;
+    margin-left: 100px;
+    width: 500px;   
+}
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 60px;
+    color: black;
+    width: 500px;
+    margin-top: -100px;
+    margin-left: 20px;
+}
+
+.Gallery{
+    display: block;
+    float: left;
+    width: 20%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,1fr);
+    column-gap: 20px;
+    row-gap: 40px;
+    width: 346px;
+    height: 673, 59px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.bike1_img,.bike2_img,.bike3_img,.bike4_img,.bike5_img,.bike6_img{
+    width: 100px;
+    height: 93, 78px;
+    transition: transform 0.7s ease;
+    cursor: pointer;
+}
+.bike1_img,.bike2_img,.bike3_img,.bike4_img,.bike5_img,.bike6_img:hover{
+  transform: scale(1,2);
+}
+.bike1_img{
+    margin-top: -500px;
+    margin-bottom: 500px;
+    width: 250px;
+    height: 100px;
+    left: 102px;
+    top: 100px;
+}
+
+.bike2_img{
+    margin-top: -500px;
+    margin-bottom: 500px;
+    width: 250px;
+    height: 100px;
+    top: 100px;
+    margin-right: 500px;
+    column-gap: 1000px;
+    margin-left: -450px;
+}
+
+.bike3_img{
+    margin-top: -100%;
+    margin-bottom: 570px;
+    width: 250px;
+    height: 100px;
+    top: 1500px;
+    margin-right: 500px; 
+    column-gap: 500px;
+    margin-left: 95%;
+}
+
+.bike4_img{
+    margin-top: -600px;
+    margin-bottom: 270px;
+    width: 250px;
+    height: 100px;
+    margin-left: -260%;
+    
+}
+
+.bike5_img{
+    margin-top: -500px;
+    margin-bottom: 500px;
+    width: 250px;
+    height: 100px;
+    margin-left: 40%;
+}
+
+.bike6_img{
+    margin-top: -500px;
+    margin-bottom: 400px;
+    width: 250px;
+    height: 100px;
+    margin-left: -50%;
+}
+/* #footer */
+.contain{
+  
+    height: 350px;
+    background-color: #242424;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25%;
+    width: 80%;
+    
+}
+
+
+body{
+    overflow-x: hidden;
+}
+      
+      .contain {
+        max-width: 100%;
+      }
+      
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 100%; */
+      }
+      
+      .footer-col {
+        width: 15%;
+        padding: 0 15px;
+      }
+      
+      .footer-col h5 {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        width: 100%;
+        margin-top: 10%;
+        
+
+      }
+      
+      .footer-col p {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        color: white;
+        width: 200%;
+        
+       
+      }
+
+      #logi{
+        position: absolute;
+        width: 250px;
+        height: 110px;
+        left: 50px;
+        padding-top: 50px;
+        
+      }
+
+.Reach{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.icon1{
+    margin-top: -10%;
+    padding-left: 67%;
+    color: #fff;
+    text-align: left;
+   
+}
+
+.icon2{
+    margin-top: 2%;
+    padding-left: 67%;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

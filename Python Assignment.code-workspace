@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Python Assignment"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Website"
+	}
+}
